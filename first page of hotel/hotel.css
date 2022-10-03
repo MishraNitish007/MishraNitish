@@ -1,0 +1,65 @@
+*{
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin:0;
+padding:0;
+
+}
+
+header{
+    background: url(../Images_hotelfoods/shutterstock_348320018@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:80vh;
+}
+nav{
+    margin: 0 auto;
+}
+nav ul{
+    float: right;
+    
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 10px;
+    padding: 5px;
+}
+.clear{
+    clear: both;
+}
+#navbar{
+border: 1px solid white;
+color: white;
+}
+#navbar:hover{
+    background-color: red;
+    }
+
+    /* Logo */
+section{
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divlogo{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    color: red;
+    font-size: 70px;
+}
